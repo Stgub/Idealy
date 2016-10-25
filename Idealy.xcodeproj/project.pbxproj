@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19FB43771DBE929F00F0C609 /* EnhancedViewCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FB43761DBE929E00F0C609 /* EnhancedViewCustom.swift */; };
+		19FB437A1DBE93A200F0C609 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FB43791DBE93A200F0C609 /* Constants.swift */; };
+		19FB437C1DBE964100F0C609 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FB437B1DBE964100F0C609 /* RoundBtn.swift */; };
+		19FB437E1DBEEB9F00F0C609 /* EnhancedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FB437D1DBEEB9F00F0C609 /* EnhancedTextField.swift */; };
+		19FB43801DBEED3700F0C609 /* RoundSignInBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FB437F1DBEED3700F0C609 /* RoundSignInBtn.swift */; };
 		19FC1FDE1DBA79D9008AE078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FC1FDD1DBA79D9008AE078 /* AppDelegate.swift */; };
 		19FC1FE01DBA79D9008AE078 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FC1FDF1DBA79D9008AE078 /* SignInVC.swift */; };
 		19FC1FE31DBA79D9008AE078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19FC1FE11DBA79D9008AE078 /* Main.storyboard */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19FB43761DBE929E00F0C609 /* EnhancedViewCustom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnhancedViewCustom.swift; sourceTree = "<group>"; };
+		19FB43791DBE93A200F0C609 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		19FB437B1DBE964100F0C609 /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
+		19FB437D1DBEEB9F00F0C609 /* EnhancedTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnhancedTextField.swift; sourceTree = "<group>"; };
+		19FB437F1DBEED3700F0C609 /* RoundSignInBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundSignInBtn.swift; sourceTree = "<group>"; };
 		19FC1FDA1DBA79D9008AE078 /* Idealy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Idealy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19FC1FDD1DBA79D9008AE078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19FC1FDF1DBA79D9008AE078 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -39,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19FB43781DBE934700F0C609 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				19FB43791DBE93A200F0C609 /* Constants.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
 		19FC1FD11DBA79D8008AE078 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +78,7 @@
 		19FC1FDC1DBA79D9008AE078 /* Idealy */ = {
 			isa = PBXGroup;
 			children = (
+				19FB43781DBE934700F0C609 /* Utilities */,
 				19FC1FF11DBA80D6008AE078 /* Model */,
 				19FC1FF31DBA80E2008AE078 /* Controller */,
 				19FC1FF21DBA80DD008AE078 /* View */,
@@ -83,6 +102,10 @@
 		19FC1FF21DBA80DD008AE078 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				19FB43761DBE929E00F0C609 /* EnhancedViewCustom.swift */,
+				19FB437B1DBE964100F0C609 /* RoundBtn.swift */,
+				19FB437D1DBEEB9F00F0C609 /* EnhancedTextField.swift */,
+				19FB437F1DBEED3700F0C609 /* RoundSignInBtn.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -236,8 +259,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19FB43771DBE929F00F0C609 /* EnhancedViewCustom.swift in Sources */,
+				19FB43801DBEED3700F0C609 /* RoundSignInBtn.swift in Sources */,
+				19FB437E1DBEEB9F00F0C609 /* EnhancedTextField.swift in Sources */,
+				19FB437C1DBE964100F0C609 /* RoundBtn.swift in Sources */,
 				19FC1FE01DBA79D9008AE078 /* SignInVC.swift in Sources */,
 				19FC1FDE1DBA79D9008AE078 /* AppDelegate.swift in Sources */,
+				19FB437A1DBE93A200F0C609 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
