@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		192970AA1DBFA53C00F80541 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 192970A91DBFA53C00F80541 /* GoogleService-Info.plist */; };
 		19FB43771DBE929F00F0C609 /* EnhancedViewCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FB43761DBE929E00F0C609 /* EnhancedViewCustom.swift */; };
 		19FB437A1DBE93A200F0C609 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FB43791DBE93A200F0C609 /* Constants.swift */; };
 		19FB437C1DBE964100F0C609 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FB437B1DBE964100F0C609 /* RoundBtn.swift */; };
@@ -17,15 +18,49 @@
 		19FC1FE31DBA79D9008AE078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19FC1FE11DBA79D9008AE078 /* Main.storyboard */; };
 		19FC1FE51DBA79DA008AE078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19FC1FE41DBA79DA008AE078 /* Assets.xcassets */; };
 		19FC1FE81DBA79DA008AE078 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19FC1FE61DBA79DA008AE078 /* LaunchScreen.storyboard */; };
-		19FC1FF01DBA7A77008AE078 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 19FC1FEF1DBA7A77008AE078 /* GoogleService-Info.plist */; };
+		8D3FBE874F039640493A4D6F /* Pods_Idealy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA0BFCD5EAD6B07BB573272 /* Pods_Idealy.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		199809331DBEFC2C00F74A04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19FB438B1DBEFA8600F0C609 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0473131741BF40632C4EFDD0B5D4BAC0;
+			remoteInfo = Bolts;
+		};
+		199809351DBEFC2C00F74A04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19FB438B1DBEFA8600F0C609 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0128D86D664FDFD91566BA8884544B0D;
+			remoteInfo = FBSDKCoreKit;
+		};
+		199809371DBEFC2C00F74A04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19FB438B1DBEFA8600F0C609 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EAFA2DC4CB021A3907239504222C4131;
+			remoteInfo = FBSDKLoginKit;
+		};
+		19FB438F1DBEFA8700F0C609 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19FB438B1DBEFA8600F0C609 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 523B04742189974DEB22FDA87EE57F76;
+			remoteInfo = "Pods-Idealy";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		192970A81DBF9EE800F80541 /* Idealy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Idealy.entitlements; sourceTree = "<group>"; };
+		192970A91DBFA53C00F80541 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		19FB43761DBE929E00F0C609 /* EnhancedViewCustom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnhancedViewCustom.swift; sourceTree = "<group>"; };
 		19FB43791DBE93A200F0C609 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		19FB437B1DBE964100F0C609 /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
 		19FB437D1DBEEB9F00F0C609 /* EnhancedTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnhancedTextField.swift; sourceTree = "<group>"; };
 		19FB437F1DBEED3700F0C609 /* RoundSignInBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundSignInBtn.swift; sourceTree = "<group>"; };
+		19FB438B1DBEFA8600F0C609 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		19FC1FDA1DBA79D9008AE078 /* Idealy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Idealy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19FC1FDD1DBA79D9008AE078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19FC1FDF1DBA79D9008AE078 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -33,8 +68,8 @@
 		19FC1FE41DBA79DA008AE078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19FC1FE71DBA79DA008AE078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19FC1FE91DBA79DA008AE078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		19FC1FEF1DBA7A77008AE078 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6F31787B349B39662417C5C3 /* Pods-Idealy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Idealy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Idealy/Pods-Idealy.release.xcconfig"; sourceTree = "<group>"; };
+		9FA0BFCD5EAD6B07BB573272 /* Pods_Idealy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Idealy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADAB6090F9785D2D2C8EAFDA /* Pods-Idealy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Idealy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Idealy/Pods-Idealy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D3FBE874F039640493A4D6F /* Pods_Idealy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,13 +93,26 @@
 			name = Utilities;
 			sourceTree = "<group>";
 		};
+		19FB438C1DBEFA8600F0C609 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				199809341DBEFC2C00F74A04 /* Bolts.framework */,
+				199809361DBEFC2C00F74A04 /* FBSDKCoreKit.framework */,
+				199809381DBEFC2C00F74A04 /* FBSDKLoginKit.framework */,
+				19FB43901DBEFA8700F0C609 /* Pods_Idealy.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		19FC1FD11DBA79D8008AE078 = {
 			isa = PBXGroup;
 			children = (
 				19FC1FDC1DBA79D9008AE078 /* Idealy */,
+				192970A91DBFA53C00F80541 /* GoogleService-Info.plist */,
 				19FC1FDB1DBA79D9008AE078 /* Products */,
 				709EF2E7757D0FB64C6BBAB2 /* Pods */,
 				749F2D18E3D15D0971B8D21D /* Frameworks */,
+				19FB438B1DBEFA8600F0C609 /* Pods.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +127,7 @@
 		19FC1FDC1DBA79D9008AE078 /* Idealy */ = {
 			isa = PBXGroup;
 			children = (
+				192970A81DBF9EE800F80541 /* Idealy.entitlements */,
 				19FB43781DBE934700F0C609 /* Utilities */,
 				19FC1FF11DBA80D6008AE078 /* Model */,
 				19FC1FF31DBA80E2008AE078 /* Controller */,
@@ -87,7 +137,6 @@
 				19FC1FE41DBA79DA008AE078 /* Assets.xcassets */,
 				19FC1FE61DBA79DA008AE078 /* LaunchScreen.storyboard */,
 				19FC1FE91DBA79DA008AE078 /* Info.plist */,
-				19FC1FEF1DBA7A77008AE078 /* GoogleService-Info.plist */,
 			);
 			path = Idealy;
 			sourceTree = "<group>";
@@ -130,6 +179,7 @@
 		749F2D18E3D15D0971B8D21D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9FA0BFCD5EAD6B07BB573272 /* Pods_Idealy.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -171,6 +221,11 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = T4B85P4F7X;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -185,6 +240,12 @@
 			mainGroup = 19FC1FD11DBA79D8008AE078;
 			productRefGroup = 19FC1FDB1DBA79D9008AE078 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 19FB438C1DBEFA8600F0C609 /* Products */;
+					ProjectRef = 19FB438B1DBEFA8600F0C609 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				19FC1FD91DBA79D9008AE078 /* Idealy */,
@@ -192,13 +253,44 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		199809341DBEFC2C00F74A04 /* Bolts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Bolts.framework;
+			remoteRef = 199809331DBEFC2C00F74A04 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		199809361DBEFC2C00F74A04 /* FBSDKCoreKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FBSDKCoreKit.framework;
+			remoteRef = 199809351DBEFC2C00F74A04 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		199809381DBEFC2C00F74A04 /* FBSDKLoginKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FBSDKLoginKit.framework;
+			remoteRef = 199809371DBEFC2C00F74A04 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		19FB43901DBEFA8700F0C609 /* Pods_Idealy.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_Idealy.framework;
+			remoteRef = 19FB438F1DBEFA8700F0C609 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		19FC1FD81DBA79D9008AE078 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19FC1FF01DBA7A77008AE078 /* GoogleService-Info.plist in Resources */,
 				19FC1FE81DBA79DA008AE078 /* LaunchScreen.storyboard in Resources */,
+				192970AA1DBFA53C00F80541 /* GoogleService-Info.plist in Resources */,
 				19FC1FE51DBA79DA008AE078 /* Assets.xcassets in Resources */,
 				19FC1FE31DBA79D9008AE078 /* Main.storyboard in Resources */,
 			);
@@ -389,6 +481,8 @@
 			baseConfigurationReference = ADAB6090F9785D2D2C8EAFDA /* Pods-Idealy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Idealy/Idealy.entitlements;
 				DEVELOPMENT_TEAM = T4B85P4F7X;
 				INFOPLIST_FILE = Idealy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -403,6 +497,8 @@
 			baseConfigurationReference = 6F31787B349B39662417C5C3 /* Pods-Idealy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Idealy/Idealy.entitlements;
 				DEVELOPMENT_TEAM = T4B85P4F7X;
 				INFOPLIST_FILE = Idealy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

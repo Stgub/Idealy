@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -63,6 +63,9 @@
                                     <constraint firstAttribute="height" constant="150" id="ops-Pt-RaG"/>
                                 </constraints>
                                 <state key="normal" image="f"/>
+                                <connections>
+                                    <action selector="facebookBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qI1-tJ-5gh"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Wip-fI-K0g">
                                 <subviews>
@@ -85,6 +88,14 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-or-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oLI-N4-obB">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="fvJ-TH-pR8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -96,13 +107,16 @@
                             <constraint firstItem="BcF-K4-DwJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="CGU-lv-pJE"/>
                             <constraint firstItem="Wip-fI-K0g" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="DMa-8N-X76"/>
                             <constraint firstAttribute="trailing" secondItem="er6-Vb-L4s" secondAttribute="trailing" id="HbB-ok-Ooz"/>
+                            <constraint firstItem="oLI-N4-obB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PII-bO-h1I"/>
                             <constraint firstItem="er6-Vb-L4s" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="UV8-R8-vT1"/>
                             <constraint firstItem="Wip-fI-K0g" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZlM-mE-6jY"/>
-                            <constraint firstItem="Wip-fI-K0g" firstAttribute="top" secondItem="096-oJ-tcY" secondAttribute="bottom" constant="40" id="ePX-dv-ecq"/>
+                            <constraint firstItem="Wip-fI-K0g" firstAttribute="top" secondItem="096-oJ-tcY" secondAttribute="bottom" constant="60" id="ePX-dv-ecq"/>
                             <constraint firstItem="BcF-K4-DwJ" firstAttribute="top" secondItem="er6-Vb-L4s" secondAttribute="bottom" constant="20" id="elG-I8-n1u"/>
+                            <constraint firstItem="Wip-fI-K0g" firstAttribute="top" secondItem="oLI-N4-obB" secondAttribute="bottom" constant="19" id="i0X-ib-DjR"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Wip-fI-K0g" secondAttribute="trailing" constant="30" id="iK0-OP-Yrd"/>
-                            <constraint firstItem="096-oJ-tcY" firstAttribute="top" secondItem="BcF-K4-DwJ" secondAttribute="bottom" constant="40" id="jS9-Nb-s63"/>
+                            <constraint firstItem="096-oJ-tcY" firstAttribute="top" secondItem="BcF-K4-DwJ" secondAttribute="bottom" constant="30" id="jS9-Nb-s63"/>
                             <constraint firstAttribute="trailing" secondItem="60O-p6-nRC" secondAttribute="trailing" id="kq0-z6-Xvc"/>
+                            <constraint firstItem="oLI-N4-obB" firstAttribute="top" secondItem="096-oJ-tcY" secondAttribute="bottom" constant="20" id="vd3-hh-zOT"/>
                         </constraints>
                     </view>
                 </viewController>
