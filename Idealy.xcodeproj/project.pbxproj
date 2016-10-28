@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		192970AA1DBFA53C00F80541 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 192970A91DBFA53C00F80541 /* GoogleService-Info.plist */; };
+		19D364DD1DC2FEE60097A7EB /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D364DC1DC2FEE60097A7EB /* FeedVC.swift */; };
 		19FB43771DBE929F00F0C609 /* EnhancedViewCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FB43761DBE929E00F0C609 /* EnhancedViewCustom.swift */; };
 		19FB437A1DBE93A200F0C609 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FB43791DBE93A200F0C609 /* Constants.swift */; };
 		19FB437C1DBE964100F0C609 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FB437B1DBE964100F0C609 /* RoundBtn.swift */; };
@@ -43,6 +44,13 @@
 			remoteGlobalIDString = EAFA2DC4CB021A3907239504222C4131;
 			remoteInfo = FBSDKLoginKit;
 		};
+		19D364E31DC2FEE80097A7EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19FB438B1DBEFA8600F0C609 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 697A53FF8EE087FA3FDED7BCBBC5B49E;
+			remoteInfo = SwiftKeychainWrapper;
+		};
 		19FB438F1DBEFA8700F0C609 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 19FB438B1DBEFA8600F0C609 /* Pods.xcodeproj */;
@@ -55,6 +63,7 @@
 /* Begin PBXFileReference section */
 		192970A81DBF9EE800F80541 /* Idealy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Idealy.entitlements; sourceTree = "<group>"; };
 		192970A91DBFA53C00F80541 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		19D364DC1DC2FEE60097A7EB /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		19FB43761DBE929E00F0C609 /* EnhancedViewCustom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnhancedViewCustom.swift; sourceTree = "<group>"; };
 		19FB43791DBE93A200F0C609 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		19FB437B1DBE964100F0C609 /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
@@ -100,6 +109,7 @@
 				199809361DBEFC2C00F74A04 /* FBSDKCoreKit.framework */,
 				199809381DBEFC2C00F74A04 /* FBSDKLoginKit.framework */,
 				19FB43901DBEFA8700F0C609 /* Pods_Idealy.framework */,
+				19D364E41DC2FEE80097A7EB /* SwiftKeychainWrapper.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				19FC1FDF1DBA79D9008AE078 /* SignInVC.swift */,
+				19D364DC1DC2FEE60097A7EB /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -275,6 +286,13 @@
 			remoteRef = 199809371DBEFC2C00F74A04 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		19D364E41DC2FEE80097A7EB /* SwiftKeychainWrapper.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftKeychainWrapper.framework;
+			remoteRef = 19D364E31DC2FEE80097A7EB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		19FB43901DBEFA8700F0C609 /* Pods_Idealy.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -355,6 +373,7 @@
 				19FB43801DBEED3700F0C609 /* RoundSignInBtn.swift in Sources */,
 				19FB437E1DBEEB9F00F0C609 /* EnhancedTextField.swift in Sources */,
 				19FB437C1DBE964100F0C609 /* RoundBtn.swift in Sources */,
+				19D364DD1DC2FEE60097A7EB /* FeedVC.swift in Sources */,
 				19FC1FE01DBA79D9008AE078 /* SignInVC.swift in Sources */,
 				19FC1FDE1DBA79D9008AE078 /* AppDelegate.swift in Sources */,
 				19FB437A1DBE93A200F0C609 /* Constants.swift in Sources */,

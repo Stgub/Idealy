@@ -77,7 +77,7 @@
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fQC-rp-dfb" customClass="EnhancedTextField" customModule="Idealy" customModuleProvider="target">
                                         <color key="textColor" white="0.0" alpha="0.87438463180000003" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="66h-Ti-uJg" customClass="RoundSignInBtn" customModule="Idealy" customModuleProvider="target">
                                         <color key="backgroundColor" red="0.98182898760000004" green="0.40496349329999998" blue="0.29472318289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -85,6 +85,9 @@
                                         <state key="normal" title="Sign in">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="signInTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AgT-le-WBr"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -119,10 +122,50 @@
                             <constraint firstItem="oLI-N4-obB" firstAttribute="top" secondItem="096-oJ-tcY" secondAttribute="bottom" constant="20" id="vd3-hh-zOT"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailField" destination="3Ap-m0-70B" id="nKO-rJ-9k2"/>
+                        <outlet property="passwordField" destination="fQC-rp-dfb" id="OqI-L3-FGE"/>
+                        <segue destination="sga-Nv-tbW" kind="show" identifier="goToFeed" id="dRk-d1-Atj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
+        </scene>
+        <!--FeedVC-->
+        <scene sceneID="2Fr-kj-ict">
+            <objects>
+                <viewController id="sga-Nv-tbW" customClass="FeedVC" customModule="Idealy" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="57C-99-uB1"/>
+                        <viewControllerLayoutGuide type="bottom" id="PYa-AV-ric"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="34l-GQ-hvx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y1K-QJ-zkj">
+                                <state key="normal" title="Sign Out">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="signInTapped:" destination="sga-Nv-tbW" eventType="touchUpInside" id="aaF-SC-Meo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.35133126378059387" green="0.63923537731170654" blue="0.91063910722732544" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Y1K-QJ-zkj" firstAttribute="centerX" secondItem="34l-GQ-hvx" secondAttribute="centerX" id="JQx-zD-F0K"/>
+                            <constraint firstItem="Y1K-QJ-zkj" firstAttribute="centerY" secondItem="34l-GQ-hvx" secondAttribute="centerY" id="xbD-W6-hGz"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="goToSignIn" id="2TS-la-c04"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wr9-sb-C2l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="894" y="120"/>
         </scene>
     </scenes>
     <resources>
