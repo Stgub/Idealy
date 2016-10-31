@@ -11,6 +11,7 @@
 		19D364DD1DC2FEE60097A7EB /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D364DC1DC2FEE60097A7EB /* FeedVC.swift */; };
 		19F6E4F51DC663A600B91D34 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F6E4F41DC663A500B91D34 /* CircleView.swift */; };
 		19F6E4FC1DC7866D00B91D34 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F6E4FB1DC7866D00B91D34 /* PostCell.swift */; };
+		19F6E4FF1DC79F0E00B91D34 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F6E4FE1DC79F0E00B91D34 /* DataService.swift */; };
 		19FB43771DBE929F00F0C609 /* EnhancedViewCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FB43761DBE929E00F0C609 /* EnhancedViewCustom.swift */; };
 		19FB437A1DBE93A200F0C609 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FB43791DBE93A200F0C609 /* Constants.swift */; };
 		19FB437C1DBE964100F0C609 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FB437B1DBE964100F0C609 /* RoundBtn.swift */; };
@@ -68,6 +69,7 @@
 		19D364DC1DC2FEE60097A7EB /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		19F6E4F41DC663A500B91D34 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		19F6E4FB1DC7866D00B91D34 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		19F6E4FE1DC79F0E00B91D34 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		19FB43761DBE929E00F0C609 /* EnhancedViewCustom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnhancedViewCustom.swift; sourceTree = "<group>"; };
 		19FB43791DBE93A200F0C609 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		19FB437B1DBE964100F0C609 /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
@@ -98,6 +100,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19F6E4FD1DC79EF100B91D34 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				19F6E4FE1DC79F0E00B91D34 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		19FB43781DBE934700F0C609 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +151,7 @@
 		19FC1FDC1DBA79D9008AE078 /* Idealy */ = {
 			isa = PBXGroup;
 			children = (
+				19F6E4FD1DC79EF100B91D34 /* Services */,
 				192970A81DBF9EE800F80541 /* Idealy.entitlements */,
 				19FB43781DBE934700F0C609 /* Utilities */,
 				19FC1FF11DBA80D6008AE078 /* Model */,
@@ -380,6 +391,7 @@
 				19FB43801DBEED3700F0C609 /* RoundSignInBtn.swift in Sources */,
 				19FB437E1DBEEB9F00F0C609 /* EnhancedTextField.swift in Sources */,
 				19FB437C1DBE964100F0C609 /* RoundBtn.swift in Sources */,
+				19F6E4FF1DC79F0E00B91D34 /* DataService.swift in Sources */,
 				19D364DD1DC2FEE60097A7EB /* FeedVC.swift in Sources */,
 				19FC1FE01DBA79D9008AE078 /* SignInVC.swift in Sources */,
 				19FC1FDE1DBA79D9008AE078 /* AppDelegate.swift in Sources */,
