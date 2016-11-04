@@ -528,6 +528,7 @@
 				CODE_SIGN_ENTITLEMENTS = Idealy/Idealy.entitlements;
 				DEVELOPMENT_TEAM = T4B85P4F7X;
 				INFOPLIST_FILE = Idealy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stevengraf.Idealy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -544,6 +545,7 @@
 				CODE_SIGN_ENTITLEMENTS = Idealy/Idealy.entitlements;
 				DEVELOPMENT_TEAM = T4B85P4F7X;
 				INFOPLIST_FILE = Idealy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stevengraf.Idealy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
