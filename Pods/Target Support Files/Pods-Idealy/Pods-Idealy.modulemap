@@ -1,0 +1,6 @@
+framework module Pods_Idealy {
+  umbrella header "Pods-Idealy-umbrella.h"
+
+  export *
+  module * { export * }
+}
