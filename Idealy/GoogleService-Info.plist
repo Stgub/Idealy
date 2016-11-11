@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>234600844409-codhnu50fegt4l0s3ho7vk4v3mjiqvvl.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.234600844409-codhnu50fegt4l0s3ho7vk4v3mjiqvvl</string>
+	<key>GCM_SENDER_ID</key>
+	<string>234600844409</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.stevengraf.Idealy</string>
+	<key>PROJECT_ID</key>
+	<string>idealy-cf44c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>idealy-cf44c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:234600844409:ios:f3383ac3a3797a0d</string>
+	<key>DATABASE_URL</key>
+	<string>https://idealy-cf44c.firebaseio.com</string>
+</dict>
+</plist>
